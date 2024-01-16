@@ -1,19 +1,33 @@
 apiVersion: v1
 entries:
   cloudflare-tunnel-operator:
-  - apiVersion: v2
-    appVersion: 0.2.0
-    created: "2023-04-13T09:28:36.964760426+02:00"
-    description: A Helm chart for cloudflare-tunnel-operator
-    digest: cc9b19c763113b3316b4b36ade4418140b2228e08d67144835a97603693b7b19
-    home: https://github.com/beezlabs-org/cloudflare-tunnel-operator
-    maintainers:
-    - email: sayak@beezlabs.com
-      name: Sayak Mukhopadhyay
-      url: https://www.beezlabs.com
-    name: cloudflare-tunnel-operator
-    type: application
-    urls:
-    - https://charts.fkm.sh/cloudflare-tunnel-operator-0.2.0.tgz
-    version: 0.2.0
-generated: "2023-04-13T09:28:36.964134024+02:00"
+    - apiVersion: v2
+      appVersion: 0.2.0
+      created: "2024-01-16T12:45:04.432726045+01:00"
+      description: A Helm chart for cloudflare-tunnel-operator
+      digest: cc9b19c763113b3316b4b36ade4418140b2228e08d67144835a97603693b7b19
+      home: https://github.com/beezlabs-org/cloudflare-tunnel-operator
+      maintainers:
+        - email: sayak@beezlabs.com
+          name: Sayak Mukhopadhyay
+          url: https://www.beezlabs.com
+      name: cloudflare-tunnel-operator
+      type: application
+      urls:
+        - https://charts.fkm.sh/cloudflare-tunnel-operator-0.2.0.tgz
+      version: 0.2.0
+  kube-oidc-proxy:
+    - apiVersion: v1
+      appVersion: v1.0.0
+      created: "2024-01-16T12:45:04.433153643+01:00"
+      description: A Helm chart for kube-oidc-proxy
+      digest: 9b088b780f6f007ddbc4ca2ccf50bb8c7c5a6e6a4a69773768f466452cb9c6c8
+      home: https://github.com/jetstack/kube-oidc-proxy
+      maintainers:
+        - name: mhrabovcin
+        - name: joshvanl
+      name: kube-oidc-proxy
+      urls:
+        - https://charts.fkm.sh/kube-oidc-proxy-0.3.2.tgz
+      version: 0.3.2
+generated: "2024-01-16T12:45:04.431606252+01:00"
